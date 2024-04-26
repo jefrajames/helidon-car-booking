@@ -66,6 +66,26 @@ Note: native mode not yet tested.
 
 The application exposes a REST API documented with OpenAPI. 
 
-To interract with the application go to: http://localhost:8080/openapi/ui
+To interract with the application go to: http://localhost:8080/openapi/ui.
 
-To play with the application, please see my [Quarkus-LangChain4j](https://github.com/jefrajames/car-booking) example.
+
+Typical questions you can ask in the Chat:
+
+* Hello, how can you help me?
+* What is your list of cars?
+* What is your cancelation policy?
+* What is your fleet size? Be short please.
+* How many electric cars do you have?
+* My name is James Bond, please list my bookings
+* Is my booking 123-456 cancelable?
+* Is my booking 234-567 cancelable?
+* Can you check the duration please?
+* I'm James Bond, can I cancel all my booking 345-678?
+* Can you provide the details of all my bookings?
+
+You can ask fraud for:
+
+* James Bond
+* Emilio Largo
+
+For more information, please see my [Quarkus-LangChain4j](https://github.com/jefrajames/car-booking) example.
