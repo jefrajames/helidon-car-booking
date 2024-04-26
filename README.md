@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This example demonstrates [LangChain4J](https://docs.langchain4j.dev/) with [Helidon](https://helidon.io/docs/v4/about/doc_overview). It aims at studying how to leverage LLMs (impressive) capabilities in Java applications.
+This example demonstrates [LangChain4J](https://docs.langchain4j.dev/) with [Helidon](https://helidon.io/docs/v4/about/doc_overview). It aims at studying how to leverage LLMs (impressive) capabilities in Java applications. In particular, it illustrates how to use RAG and Function Calling.
 
-It is derived from my [Quarkus-LangChain4j](https://github.com/jefrajames/car-booking) example used to illustrate my talk at https://www.jchateau.org[Chateau 2024 unconference].
+It is derived from my [Quarkus-LangChain4j](https://github.com/jefrajames/car-booking) example used to illustrate my talk at [JChateau 2024](https://www.jchateau.org).
 
-It is based on a simplified car booking application inspired from the https://www.youtube.com/watch?v=BD1MSLbs9KE[Java meets AI] talk from Lize Raes at Devoxx Belgium 2023. The car booking company is called "Miles of Smiles" and the application exposes two AI services:
+It is based on a simplified car booking application inspired from the [Java meets AI](https://www.youtube.com/watch?v=BD1MSLbs9KE) talk from Lize Raes at Devoxx Belgium 2023. The car booking company is called "Miles of Smiles" and the application exposes two AI services:
 
 . a chat service to freely discuss with a customer assistant
 . a fraud service to determine if a customer is a frauder.
@@ -19,12 +19,12 @@ Warning: you must first configure the application to connect to an LLM that supp
 
 The project has been developped and tested with:
 
-. Java 22 (Temurin OpenJDK distro)
-. Helidon 4.0.7
-. Helidon CLI 3.0.4
-. LangChain4j 0.30.0
-. Maven 3.9.5
-. Testing against GPT 3.5 and 4.0 on a dedicated Azure instance (to be customized in your context). 
+* Java 22 (Temurin OpenJDK distro)
+* Helidon 4.0.7
+* Helidon CLI 3.0.4
+* LangChain4j 0.30.0
+* Maven 3.9.5
+* Testing against GPT 3.5 and 4.0 on a dedicated Azure instance (to be customized in your context). 
 
 During my tests, GPT 3.5 has proved to be faster but less precise en consistent than GPT 4. In particular, GPT 4 has provided much better result with Fraud Detection.
 
